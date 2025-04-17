@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://debb2hqhec6id"]
+
+[ext_resource type="PackedScene" uid="uid://b7cwcqnkspaqa" path="res://src/gameScreen/card/cardManager/card_manager.tscn" id="1_qv64r"]
+
+[node name="gameScreen" type="Node2D"]
+
+[node name="cardManager" parent="." instance=ExtResource("1_qv64r")]
+position = Vector2(384, 512)

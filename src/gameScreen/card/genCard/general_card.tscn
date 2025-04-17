@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://cnauokrye2ywf"]
+
+[ext_resource type="Script" uid="uid://dw4v2gfc8difp" path="res://src/gameScreen/card/genCard/general_card.gd" id="1_1hefd"]
+[ext_resource type="Texture2D" uid="uid://u57c80yahnbi" path="res://icon.svg" id="1_eh3id"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eh3id"]
+size = Vector2(368, 368)
+
+[node name="generalCard" type="Node2D"]
+script = ExtResource("1_1hefd")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0, 0, 0, 1)
+scale = Vector2(2.8214, 2.8214)
+texture = ExtResource("1_eh3id")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("RectangleShape2D_eh3id")
