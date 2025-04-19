@@ -6,11 +6,12 @@ extends Node2D
 
 # —— internal state —— #
 var follow_mouse := false
-var returning    := false
+var returning    := true
 var start_position := Vector2.ZERO
 
 func _ready() -> void:
-	start_position = global_position
+	pass
+
 
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("click"):
@@ -23,7 +24,7 @@ func _input(event: InputEvent) -> void:
 func _physics_process(delta: float) -> void:
 	if follow_mouse:
 		var mouse_pos = get_global_mouse_position()
-		global_position = mouse_pos
+		global_position = lerp(global_position, mouse_pos, 0.9)
 		rotation = (mouse_pos.x - start_position.x) * rotation_factor
 	elif returning:
 		# 1) Position lerp
@@ -38,7 +39,7 @@ func _physics_process(delta: float) -> void:
 
 func setStartPos(p:Vector2) -> void:
 	start_position = p
-	global_position = start_position
+	global_position = Vector2(start_position.x, -100.0)
 
 func useCardData(cardDeets : Dictionary) -> void:
 	$excersizeName.text = cardDeets.name

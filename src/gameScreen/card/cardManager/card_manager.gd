@@ -6,7 +6,7 @@ var arrOfExcersizes := []
 func _ready() -> void:
 	arrOfExcersizes = ExcersizeGrabber.getJsonData()
 	spawnSwipeableCard()
-	
+
 func spawnSwipeableCard() -> void:
 	var c := preload("res://src/gameScreen/card/genCard/general_card.tscn").instantiate()
 	add_child(c)
