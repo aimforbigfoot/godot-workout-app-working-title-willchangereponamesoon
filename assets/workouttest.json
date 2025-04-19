@@ -1,0 +1,152 @@
+[
+  {
+	"id": "pushup_standard",
+	"name": "Standard Push-Up",
+	"muscle_groups": ["chest", "triceps", "shoulders"],
+	"difficulty": "beginner",
+	"equipment": [],
+	"reps": { "min": 10, "max": 15 },
+	"time_limit_sec": 60,
+	"allow_breaks": true
+  },
+  {
+	"id": "squat_air",
+	"name": "Air Squat",
+	"muscle_groups": ["quads", "glutes", "hamstrings"],
+	"difficulty": "beginner",
+	"equipment": [],
+	"reps": { "min": 15, "max": 25 },
+	"time_limit_sec": 45,
+	"allow_breaks": true
+  },
+  {
+	"id": "plank_standard",
+	"name": "Standard Plank",
+	"muscle_groups": ["core", "shoulders", "transverse_abdominis"],
+	"difficulty": "beginner",
+	"equipment": [],
+	"reps": { "min": 30, "max": 60 },
+	"time_limit_sec": 60,
+	"allow_breaks": false
+  },
+  {
+	"id": "dumbbell_goblet_squat",
+	"name": "Goblet Squat",
+	"muscle_groups": ["quads", "glutes"],
+	"difficulty": "intermediate",
+	"equipment": ["dumbbell"],
+	"reps": { "min": 8, "max": 12 },
+	"time_limit_sec": 60,
+	"allow_breaks": true
+  },
+  {
+	"id": "pushup_diamond",
+	"name": "Diamond Push-Up",
+	"muscle_groups": ["triceps", "chest"],
+	"difficulty": "intermediate",
+	"equipment": [],
+	"reps": { "min": 8, "max": 12 },
+	"time_limit_sec": 50,
+	"allow_breaks": true
+  },
+  {
+	"id": "v_up",
+	"name": "V-Up",
+	"muscle_groups": ["core", "abs"],
+	"difficulty": "advanced",
+	"equipment": [],
+	"reps": { "min": 8, "max": 12 },
+	"time_limit_sec": 40,
+	"allow_breaks": true
+  },
+  {
+	"id": "lunge_forward",
+	"name": "Forward Lunge",
+	"muscle_groups": ["quads", "hamstrings", "glutes"],
+	"difficulty": "intermediate",
+	"equipment": [],
+	"reps": { "min": 10, "max": 14 },
+	"time_limit_sec": 50,
+	"allow_breaks": true
+  },
+  {
+	"id": "calf_raise_double",
+	"name": "Double-Leg Calf Raise",
+	"muscle_groups": ["calves"],
+	"difficulty": "beginner",
+	"equipment": [],
+	"reps": { "min": 15, "max": 25 },
+	"time_limit_sec": 40,
+	"allow_breaks": true
+  },
+  {
+	"id": "plank_shoulder_tap",
+	"name": "Plank Shoulder Taps",
+	"muscle_groups": ["core", "shoulders", "obliques"],
+	"difficulty": "intermediate",
+	"equipment": [],
+	"reps": { "min": 12, "max": 20 },
+	"time_limit_sec": 60,
+	"allow_breaks": true
+  },
+  {
+	"id": "dumbbell_bicep_curl",
+	"name": "Dumbbell Bicep Curl",
+	"muscle_groups": ["biceps"],
+	"difficulty": "beginner",
+	"equipment": ["dumbbell"],
+	"reps": { "min": 10, "max": 15 },
+	"time_limit_sec": 45,
+	"allow_breaks": true
+  },
+  {
+	"id": "dumbbell_shoulder_press",
+	"name": "Dumbbell Shoulder Press",
+	"muscle_groups": ["shoulders", "triceps"],
+	"difficulty": "intermediate",
+	"equipment": ["dumbbell"],
+	"reps": { "min": 8, "max": 12 },
+	"time_limit_sec": 60,
+	"allow_breaks": true
+  },
+  {
+	"id": "side_plank",
+	"name": "Side Plank",
+	"muscle_groups": ["core", "obliques"],
+	"difficulty": "intermediate",
+	"equipment": [],
+	"reps": { "min": 20, "max": 40 },
+	"time_limit_sec": 40,
+	"allow_breaks": false
+  },
+  {
+	"id": "dumbbell_renegade_row",
+	"name": "Renegade Row",
+	"muscle_groups": ["core", "back", "biceps"],
+	"difficulty": "advanced",
+	"equipment": ["dumbbell"],
+	"reps": { "min": 6, "max": 10 },
+	"time_limit_sec": 50,
+	"allow_breaks": true
+  },
+  {
+	"id": "pistol_squat_assisted",
+	"name": "Pistol Squat (Assisted)",
+	"muscle_groups": ["quads", "glutes", "hamstrings"],
+	"difficulty": "advanced",
+	"equipment": ["wall", "pole"],
+	"reps": { "min": 3, "max": 6 },
+	"time_limit_sec": 40,
+	"allow_breaks": true
+  },
+  {
+	"id": "reverse_lunge",
+	"name": "Reverse Lunge",
+	"muscle_groups": ["quads", "hamstrings", "glutes"],
+	"difficulty": "intermediate",
+	"equipment": [],
+	"reps": { "min": 10, "max": 14 },
+	"time_limit_sec": 50,
+	"allow_breaks": true
+  }
+]

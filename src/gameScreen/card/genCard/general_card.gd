@@ -35,3 +35,11 @@ func _physics_process(delta: float) -> void:
 			global_position = start_position
 			rotation = 0.0
 			returning = false
+
+func setStartPos(p:Vector2) -> void:
+	start_position = p
+	global_position = start_position
+
+func useCardData(cardDeets : Dictionary) -> void:
+	$excersizeName.text = cardDeets.name
+	pass

@@ -15,6 +15,10 @@ run/main_scene="uid://debb2hqhec6id"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+ExcersizeGrabber="*res://src/scripts/exersizeHelper/ExcersizeGrabber.gd"
+
 [display]
 
 window/size/viewport_width=720

@@ -5,4 +5,3 @@
 [node name="gameScreen" type="Node2D"]
 
 [node name="cardManager" parent="." instance=ExtResource("1_qv64r")]
-position = Vector2(384, 512)
