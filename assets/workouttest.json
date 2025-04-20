@@ -22,24 +22,15 @@
   {
 	"id": "plank_standard",
 	"name": "Standard Plank",
-	"muscle_groups": ["core", "shoulders", "transverse_abdominis"],
+	"muscle_groups": ["core", "shoulders"],
+	"isSeconds": false,
 	"difficulty": "beginner",
 	"equipment": [],
 	"reps": { "min": 30, "max": 60 },
 	"time_limit_sec": 60,
 	"allow_breaks": false
   },
-  {
-	"id": "dumbbell_goblet_squat",
-	"name": "Goblet Squat",
-	"muscle_groups": ["quads", "glutes"],
-	"difficulty": "intermediate",
-	"equipment": ["dumbbell"],
-	"reps": { "min": 8, "max": 12 },
-	"time_limit_sec": 60,
-	"allow_breaks": true
-  },
-  {
+   {
 	"id": "pushup_diamond",
 	"name": "Diamond Push-Up",
 	"muscle_groups": ["triceps", "chest"],
@@ -52,7 +43,7 @@
   {
 	"id": "v_up",
 	"name": "V-Up",
-	"muscle_groups": ["core", "abs"],
+	"muscle_groups": ["abs"],
 	"difficulty": "advanced",
 	"equipment": [],
 	"reps": { "min": 8, "max": 12 },
@@ -85,6 +76,7 @@
 	"muscle_groups": ["core", "shoulders", "obliques"],
 	"difficulty": "intermediate",
 	"equipment": [],
+	"isSeconds": false,
 	"reps": { "min": 12, "max": 20 },
 	"time_limit_sec": 60,
 	"allow_breaks": true
@@ -115,6 +107,7 @@
 	"muscle_groups": ["core", "obliques"],
 	"difficulty": "intermediate",
 	"equipment": [],
+	"isSeconds": false,
 	"reps": { "min": 20, "max": 40 },
 	"time_limit_sec": 40,
 	"allow_breaks": false

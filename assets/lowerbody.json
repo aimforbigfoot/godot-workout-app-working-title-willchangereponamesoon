@@ -1,0 +1,74 @@
+[
+  {
+    "id": "squat_air",
+    "name": "Air Squat",
+    "muscle_groups": ["quads","glutes","hamstrings"],
+    "difficulty": "beginner",
+    "reps": { "min": 15, "max": 25 },
+    "time_limit_sec": 45,
+    "allow_breaks": true
+  },
+  {
+    "id": "glute_bridge",
+    "name": "Glute Bridge",
+    "muscle_groups": ["glutes","hamstrings"],
+    "difficulty": "beginner",
+    "reps": { "min": 10, "max": 15 },
+    "time_limit_sec": 45,
+    "allow_breaks": true
+  },
+  {
+    "id": "lunge_forward",
+    "name": "Forward Lunge",
+    "muscle_groups": ["quads","hamstrings","glutes"],
+    "difficulty": "intermediate",
+    "reps": { "min": 10, "max": 14 },
+    "time_limit_sec": 50,
+    "allow_breaks": true
+  },
+  {
+    "id": "reverse_lunge",
+    "name": "Reverse Lunge",
+    "muscle_groups": ["quads","hamstrings","glutes"],
+    "difficulty": "intermediate",
+    "reps": { "min": 10, "max": 14 },
+    "time_limit_sec": 50,
+    "allow_breaks": true
+  },
+  {
+    "id": "single_leg_glute_bridge",
+    "name": "Single-Leg Glute Bridge",
+    "muscle_groups": ["glutes","hamstrings"],
+    "difficulty": "intermediate",
+    "reps": { "min": 6, "max": 10 },
+    "time_limit_sec": 45,
+    "allow_breaks": true
+  },
+  {
+    "id": "pistol_squat",
+    "name": "Pistol Squat",
+    "muscle_groups": ["quads","glutes","hamstrings"],
+    "difficulty": "advanced",
+    "reps": { "min": 3, "max": 6 },
+    "time_limit_sec": 40,
+    "allow_breaks": true
+  },
+  {
+    "id": "shrimp_squat",
+    "name": "Shrimp Squat",
+    "muscle_groups": ["quads","glutes","abs"],
+    "difficulty": "advanced",
+    "reps": { "min": 3, "max": 6 },
+    "time_limit_sec": 40,
+    "allow_breaks": true
+  },
+  {
+    "id": "calf_raise_double",
+    "name": "Double-Leg Calf Raise",
+    "muscle_groups": ["calves"],
+    "difficulty": "beginner",
+    "reps": { "min": 15, "max": 25 },
+    "time_limit_sec": 40,
+    "allow_breaks": true
+  }
+]
