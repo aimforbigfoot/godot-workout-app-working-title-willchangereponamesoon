@@ -23,9 +23,12 @@ ExcersizeGrabber="*res://src/scripts/exersizeHelper/ExcersizeGrabber.gd"
 
 window/size/viewport_width=720
 window/size/viewport_height=1280
+window/size/mode=2
 window/size/window_width_override=360
 window/size/window_height_override=640
 window/stretch/mode="canvas_items"
+window/handheld/orientation=1
+window/vsync/vsync_mode=2
 
 [input]
 
@@ -43,3 +46,7 @@ R={
 [input_devices]
 
 pointing/emulate_touch_from_mouse=true
+
+[rendering]
+
+textures/vram_compression/import_etc2_astc=true
